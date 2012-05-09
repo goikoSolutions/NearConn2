@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "org.goikoSolutions.NearConn"
+	version 	= "1.0.0">
+
+	<name>NearConn</name>
+
+	<description>
+		A instant communication App
+	</description>
+
+	<author href="http://alunny.github.com"
+		email="andrew.lunny@nitobi.com">
+		Andrew Lunny
+	</author>
+
+	<icon src="icons/icon.png" gap:role="default" />
+	<gap:splash src="splashes/splash.png" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="portrait" />
+	
+</widget>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
+		<title>NearConn</title>
+		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
+		
+		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/lawnchair/adaptors/DOMStorageAdaptor.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/lawnchair/adaptors/WebkitSQLiteAdaptor.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+ 		<div id="title_bar">
+ 			<strong>NearConn</strong>
+ 			<img id="ico_conn" src="assets/img/dconn.png">	
+ 		</div>
+
+		<div id="welcome" class="view">
+		  <div class="notificacion" id="not0_button"></div>	
+		  <div class="notificacion" id="not1_button"></div>
+		  <div class="notificacion" id="not2_button"></div>
+		  <div class="notificacion" id="not3_button"></div>
+		  <div class="notificacion" id="not4_button"></div>				
+  	      <div class="app_button" id="settings_button">Configuración</div>
+		</div>
+
+		<div id="detalle" class="view">
+		  <div id="not_titulo">
+		  </div>
+		  <div id="not_contenido">
+		  </div>
+		  <div id="not_url">
+		  </div>
+		  <div class="app_button" id="welcome_button">Volver</div>
+		</div>
+
+		<div id="settings" class="view">
+		  <form id="settings_form">
+		    <fieldset>
+		      <legend>Alcance</legend>
+			  <input type="radio" name="geo" value="global">Global<br/>
+		      <input type="radio" name="geo" value="europe">Europeo<br/>
+		      <input type="radio" name="geo" value="spain">Nacional<br/>
+		      <input type="radio" name="geo" value="20000">Local<br/>
+		    </fieldset>
+		    <fieldset>
+		      <legend>Tema</legend>
+  		      <input type="text" name="tema" value="Near Technologies"><br/>
+  		     </fieldset>
+		      <button id="save_b">Save</button>
+	      </form>
+		</div>
+		
+		<div id="carga" class="view">
+		  CARGANDO...
+		</div>
+	</body>
+</html>
