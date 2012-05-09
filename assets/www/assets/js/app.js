@@ -23,7 +23,7 @@ run(function () {
     	            	}	
     	        	}
     	          }
-    	        }}
+    	        }
     		);
             //Sustituye a when('#save')
         	//Codigo necesario para saltarnos el bug de android que casca cuando mandas '?' en la url
