@@ -4,7 +4,7 @@
 run(function () {
 	var results;
 	var not;
-    // Se invoca en la primera ejecución
+    // Se invoca en la primera ejecuciï¿½n
     var init = (function () {
         if (navigator.network.connection.type == Connection.NONE) {
             x$('#ico_conn').attr('src',"assets/img/dconn.png")
